@@ -1,0 +1,28 @@
+:root {
+  --primary-cyan: hsl(180, 66%, 49%);
+  --primary-violet: hsl(257, 27%, 26%);
+  --red: hsl(0, 87%, 67%);
+  --gray: hsl(0, 0%, 75%);
+  --white: hsl(100, 100, 100);
+  --gray-violet: hsl(257, 7%, 63%);
+  --dark-blue: hsl(255, 11%, 22%);
+  --dark-violet: hsl(260, 8%, 14%);
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-2 {
+  background-color: var(--gray);
+}
+
+footer {
+  background-color: var(--dark-violet);
+}
