@@ -19,18 +19,22 @@ export default function App() {
             <a href="#">Login</a>
             <button>Sign Up</button>
           </div>
+
+          <div>
+            <button><img src="/menu.svg" alt=""/></button>
+          </div>
         </nav>
       </header>
       <main>
-        <section>
-          <div>
-            <div className='container-1'>
+        <section className='section-1'>
+          <div className='main-container'>
+            <div className='main-container-text'>
               <h2>More than just shorter links</h2>
               <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
               <button>Get Started</button>
             </div>
 
-            <div className='container-2'>
+            <div className='main-container-image'>
               <img src="/illustration-working.svg" alt="" />
             </div>
           </div>
@@ -84,10 +88,10 @@ export default function App() {
           </div>
           <div>
             <ul>
-              <li><img src="/icon-facebook.svg" alt="" /></li>
-              <li><img src="/icon-twitter.svg" alt="" /></li>
-              <li><img src="/icon-pinterest.svg" alt="" /></li>
-              <li><img src="/icon-instagram.svg" alt="" /></li>
+              <li><a href="#" target='_blank'><img src="/icon-facebook.svg" alt=""/></a></li>
+              <li><a href="#" target='_blank'><img src="/icon-twitter.svg" alt=""/></a></li>
+              <li><a href="#" target='_blank'><img src="/icon-pinterest.svg" alt=""/></a></li>
+              <li><a href="#" target='_blank'><img src="/icon-instagram.svg" alt=""/></a></li>
             </ul>
           </div>
         </div>
