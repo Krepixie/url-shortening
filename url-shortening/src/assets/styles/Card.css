@@ -1,0 +1,36 @@
+.card-container {
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    padding: 4rem 1.5rem 1rem;
+    margin: 0 auto 6rem;
+    width: 80%;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--primary-violet);
+}
+
+.card-description {
+    font-size: 16px;
+    color: var(--gray-violet);
+    margin: 1rem 0;
+}
+
+.card-icon {
+    background-color: var(--primary-violet);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
