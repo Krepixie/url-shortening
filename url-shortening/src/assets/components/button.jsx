@@ -1,7 +1,7 @@
-import '../styles/button.css'
+import '../styles/Button.css'
 
 export default function Button() {
     return (
-        <button></button>
+        <button className='action-button'>Get Started</button>
     )
 }
